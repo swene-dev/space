@@ -10,7 +10,7 @@ const navigation = [
   { name: 'Online Store', href: 'https://shopify.com', target: '_blank'},
 ]
 
-function classNames(...classes) {
+function classNames(...classes:any) {
   return classes.filter(Boolean).join(' ')
 }
 

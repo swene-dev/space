@@ -18,13 +18,13 @@ export default function Sidebar() {
   const router = useRouter()
   return (
     <aside className={classNames(
-      router.pathname == "/" ? 'w-full' : 'hidden md:block w-2/5',
-      'flex flex-col p-10 bg-gray-700 text-white min-w-min min-h-screen fit-content'
+      router.pathname == "/" ? 'w-full' : 'hidden md:flex w-2/5',
+      'flex-col p-10 bg-gray-700 text-white min-h-screen fixed fit-content'
     )}
     >
       <div className="flex justify-between items-center">
         <Link href="/">
-          <a className="text-yellow-500 uppercase w-min">Space Athletics Federation™</a>
+          <a className="text-yellow-500 uppercase w-min md:w-max">Space Athletics Federation™</a>
         </Link>
         <div>
           <Image src="/logo.png" alt="logo" width="32" height="32" />

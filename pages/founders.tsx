@@ -4,38 +4,41 @@ import Sidebar from '../components/sidebar'
 
 const Contact: NextPageWithLayout = () => {
   return (
-    <section className="w-3/5">
-      <p className="uppercase text-yellow-500">
-        The Space Athletics Federation’s primary mission is to educate, motivate and activate.
-      </p>
-      <p>
-        For over 50 years, ever since the first rocket powered a crew into orbit, space activities have been the preserve of government-sponsored specialists. That era of pioneers is in a transition. Soon more people from all walks of life will become involved in this great adventure.
-      </p>
-      <p>
-        Our first polar explorers experienced vast expanses on the surface of our planet; for them, it was like “space” on Earth. Those journeys into the unknown revealed the human desire for new ideas & destinations. Media reports detailing their progress inspired the public’s imagination.
-      </p>
-      <p>
-        Today, Space is the final frontier. Our telescopes peer back in time at supernovas from long before the first dinosaurs. Soon, the first humans will depart for Mars.
-      </p>
-      <p>
-        But first, Space will become the location for increased activity by a wider population, of whom the fittest — our athletes — will be among them.
-      </p>
-      <p>
-        The Space Athletics Federation exists to make that dream a reality.
-      </p>
-      <h1>Our Mission</h1>
-      <ul>
-        <li>Organizing connected sporting events on and off Earth</li>
-        <li>Motivating people via SAF™ products, clothing & fitness apps</li>
-        <li>Educating members about Space and Sport via published articles and related content</li>
-        <li>Facilitating research on athletics in Space</li>
-        <li>Collaborating with other space sports organisations</li>
-        <li>Creating a Space Athletics Federation™ category for Children</li>
-        <li>Building a Metaverse presence and creating digital goods</li>
-      </ul>
-      <p>Being the fastest and the strongest links the realms of Sport & Space. Both require a mindset that desires a healthy body, testing individual limits, setting new records, and creating firsts.</p>
-      <p>The global athletics community is one of the largest, most diverse communities on the planet. Membership of the Space Athletics Federation is open to AstroAthletes from all backgrounds.</p>
-      <p>We will strive for the stars together.</p>
+    <section className="w-3/5 ml-[40%] p-10 text-justify">
+      <div className="mb-10">
+        <p className="uppercase text-yellow-500">
+          Raphael Roettgen
+        </p>
+        <p>
+          Raphael Roettgen is founder and managing partner of E2MC Ventures, a fund that invests in space companies globally.
+        </p>
+        <p>
+          He is a recognized thought leader on Space and lectures on space entrepreneurship and finance at several universities, including the Swiss Institute of Technology and the International Space University. Raphael has also published an acclaimed introductory book on space business and hosts the popular Space Business Podcast.
+        </p>
+        <p>
+          With previous senior roles in investment management firms and banks, Raphael is an advisor on space to both institutional investors and governments.
+        </p>
+        <p>
+          A lecturer and alumnus of the International Space University, he holds degrees in Finance from the Wharton School, Artificial Intelligence from PUC-Rio and Space Studies from the International Space University.
+        </p>
+      </div>
+      <div className="mb-10">
+        <p className="uppercase text-yellow-500">
+          Richard Donovan
+        </p>
+        <p>
+          Richard Donovan is founder and race director of Earth’s most extreme endurance races, including the North Pole Marathon, Antarctic Ice Marathon, Volcano Marathon and World Marathon Challenge (7 Marathons 7 Continents 7 Days).
+        </p>
+        <p>
+          He is the first person in history to run marathons at both the North and South Poles, set a world record for completing marathons on all 7 continents in 4 days 22 hours 3 minutes, and has run across the continents of North America, South America and Europe.
+        </p>
+        <p>
+          A former director of the global governing body for ultramarathon running, Richard has been race director at several World and Commonwealth Championships. He has also been a keynote speaker at numerous events, including at the US State Department and the Association of International Marathons & Distance Races.
+        </p>
+        <p>
+          Richard holds a primary degree in Economics and Classical Civilization, two postgraduate degrees in Economics and a professional doctorate in Project Management.
+        </p>
+      </div>
     </section>
   )
 }

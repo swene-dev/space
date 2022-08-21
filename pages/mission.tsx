@@ -4,7 +4,7 @@ import Sidebar from '../components/sidebar'
 
 const Contact: NextPageWithLayout = () => {
   return (
-    <section className="w-3/5">
+    <section className="w-3/5 ml-[40%] p-10 text-justify">
       <p className="uppercase text-yellow-500">
         The Space Athletics Federation’s primary mission is to educate, motivate and activate.
       </p>

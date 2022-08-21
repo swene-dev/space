@@ -5,7 +5,7 @@ import Sidebar from '../components/sidebar'
 
 const About: NextPageWithLayout = () => {
   return (
-    <section className="w-3/5 ml-[40%] p-10 text-justify text-gray-500 text-sm">
+    <section className="md:w-3/5 md:ml-[40%] p-10 text-justify text-gray-500 text-sm">
       <p className="mb-10">
         <Image src="/saf_h.jpeg" alt="Group photo" width="1080" height="720" />
         Paul Robinson, Sean Tobin, Andrew Coscoran, Hiko Haso & Coach Feidhlim Kelly

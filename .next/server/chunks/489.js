@@ -81,7 +81,7 @@ function classNames(...classes) {
 function Sidebar() {
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_3__.useRouter)();
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("aside", {
-        className: classNames(router.pathname == "/" ? "w-full" : "hidden md:flex w-2/5", "flex-col p-10 bg-gray-700 text-white min-h-screen fixed fit-content"),
+        className: classNames(router.pathname == "/" ? "w-full" : "hidden md:flex w-2/5", "flex flex-col p-10 bg-gray-700 text-white min-h-screen fixed fit-content"),
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 className: "flex justify-between items-center",

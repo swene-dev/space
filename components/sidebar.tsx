@@ -19,7 +19,7 @@ export default function Sidebar() {
   return (
     <aside className={classNames(
       router.pathname == "/" ? 'w-full' : 'hidden md:flex w-2/5',
-      'flex-col p-10 bg-gray-700 text-white min-h-screen fixed fit-content'
+      'flex flex-col p-10 bg-gray-700 text-white min-h-screen fixed fit-content'
     )}
     >
       <div className="flex justify-between items-center">

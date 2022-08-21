@@ -6,7 +6,7 @@ const Contact: NextPageWithLayout = () => {
   return (
     <section className="w-3/5 ml-[40%] p-10 text-justify">
       <div className="mb-10">
-        <p className="uppercase text-amber-500">
+        <p className="uppercase text-orange">
           Raphael Roettgen
         </p>
         <p>
@@ -23,7 +23,7 @@ const Contact: NextPageWithLayout = () => {
         </p>
       </div>
       <div className="mb-10">
-        <p className="uppercase text-amber-500">
+        <p className="uppercase text-orange">
           Richard Donovan
         </p>
         <p>

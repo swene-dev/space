@@ -1,11 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/discover": "pages/discover.html",
-  "/events": "pages/events.html",
-  "/founders": "pages/founders.html",
-  "/": "pages/index.html",
-  "/mission": "pages/mission.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }

@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        blackgray: '#4F4F4F',
+        darkgrey: '#4F4F4F',
         lightgray: '#EDEDED',
         orange: '#FF8000',
       },

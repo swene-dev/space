@@ -4,7 +4,7 @@ import Sidebar from '../components/sidebar'
 
 const Contact: NextPageWithLayout = () => {
   return (
-    <section className="w-3/5 ml-[40%] p-10 text-justify">
+    <section className="w-3/5 ml-[40%] p-10 text-justify pt-20 md:pt-0">
       <h2>Layout Example (Contact)</h2>
       <p>k
       </p>
